@@ -1,0 +1,39 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./keyframe/key.scss";
+@import "./font/font.scss";
+@import "./basic-style/basic.scss";
+
+section {
+    position: relative;
+    overflow: hidden;
+    padding-top: 45px;
+   
+    
+}
+
+.container{
+    margin-top: 100px;
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    padding-bottom: 45px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 15px;
+}
+
+
+
+
+.title {
+    top: 60px;
+    position: relative;
+    text-align: center;
+}
+
+
+.navig{
+    margin-top: 15px;
+}
+
+
+
+
