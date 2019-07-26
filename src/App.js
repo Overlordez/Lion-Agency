@@ -5,7 +5,7 @@ import {
   NavLink as RRLink,
   Switch
 } from "react-router-dom";
-import About from './components/About';
+import Servises from './components/Servises';
 import News from './components/News';
 import Main from './components/Main';
 import Nav from './components/Nav';
@@ -24,7 +24,7 @@ function App() {
         <Nav/>
         <Switch>
         <Route tag={RRLink} path="/main" component={Main} />
-       <Route  tag={RRLink} path="/about" component={About} />
+       <Route  tag={RRLink} path="/servises" component={Servises} />
        <Route tag={RRLink} path="/news" component={News} />
        <Route tag={RRLink} path="/contact" component={Contact} />
        </Switch>

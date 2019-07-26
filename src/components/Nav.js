@@ -18,7 +18,7 @@ function Nav() {
 
                 <div className="navig">
                     <ul id="menu" className="justify-content-start">
-                        <li> <Link to="/about">About</Link></li>
+                        <li> <Link to="/servises">Services</Link></li>
                         <li> <Link to="/news">News</Link></li>
                         <li> <Link to="/contact">Contact</Link></li>
                         
