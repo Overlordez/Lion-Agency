@@ -2,16 +2,12 @@
 @import "./font/font.scss";
 @import "./keyframe/key.scss";
 @import "./basic-style/basic.scss";
+@import "./responsive/media.scss";
 
-
-section {
-    position: relative;
-    overflow: hidden;
-    padding-top: 100px;
-   
-    
+.card-text{
+  color: black;
+  font-size: 20px;
 }
-
 .container{
     margin-top: 100px;
     border-top: 4px solid #fff;
@@ -96,21 +92,8 @@ section {
     border-radius: 4px;
 }
 
- #content{
-     position: fixed;
-     flex-direction: column;
-     top: 0;
-     right: 0;
-     width: 100%;
-     height: 256px;
-     display: none;
-     z-index: 30;
-     transform: translateY(-100%);
-     transition: .5s;
-     .show{
-        display: flex;
-        background-color: #fff;
-        transform: translateY(0);
-     }
- }
+.col-md-6{
+  margin-top: 30px;
+}
+
 

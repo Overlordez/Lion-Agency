@@ -1,0 +1,109 @@
+@media(max-width: 890px){
+    .card{
+      width: 15rem;
+    }
+    
+  }
+  
+   
+  @media(max-width: 991px){
+    .img1{
+      height: 220px;
+    }
+  
+    p{
+      font-size: 24px;
+    }
+  
+    .img2{
+      height: 190px;
+    }
+  } 
+  
+  
+  @media(max-width: 768px ){
+  p{
+    font-size: 20px;
+    
+  }
+  .image-item{
+    height: 190px;
+  }
+  
+  h1{
+    font-size: 1.6rem;
+  }
+  
+  }
+  
+  
+  @media(max-width: 375px){
+    .img1{
+      height: 220px;
+    }
+  
+    .img2{
+      height: 155px;
+    }
+  
+    .logotype{
+      height: 80px;
+    }
+  
+    h2{
+      font-size: 1.6rem;
+    }
+  
+    .licens{
+      font-size: 15px;
+    }
+  }
+  
+  @media(max-width: 320px){
+    .img1{
+      height: 180px;
+    }
+    p{
+      font-size: 15px;
+    }
+  
+    h1{
+      font-size: 1.3rem;
+    }
+  
+    h2{
+      font-size: 1.2rem;
+    }
+  
+    .logotype{
+      height: 70px;
+    }
+  
+  }
+  
+  @media(max-width: 414px){
+    .img1{
+  
+      height: 220px;;
+    }
+  
+    .img2{
+      height: 190px;
+    }
+  }
+  
+  @media(max-width: 360px){
+  
+    .img1{
+      height: 180px;
+    }
+  
+    .img2{
+        height: 160px;
+    }
+  
+    p{
+      font-size: 17px;
+    }
+  
+  }
