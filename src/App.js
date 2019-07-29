@@ -10,6 +10,7 @@ import Bussines from './components/Bussines';
 import Main from './components/Main';
 import Nav from './components/Nav';
 import Contact from './components/Contact';
+import NoMath from './components/no-match';
 
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route tag={RRLink} exact path="/servises" component={Servises} />
           <Route tag={RRLink} exact path="/bussines" component={Bussines} />
           <Route tag={RRLink} exact path="/contact" component={Contact} />
+          <Route component={NoMath}/>
         </Switch>
       </div>
     </Router>
