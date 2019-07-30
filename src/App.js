@@ -21,14 +21,13 @@ import './sass/App.scss';
 function App() {
   return (
     <Router>
-      <div id="App">
+      <div>
         <Nav />
         <Switch>
-          <Route tag={RRLink} exact path="/" component={Main} />
-          <Route tag={RRLink} exact path="/main" component={Main} />
-          <Route tag={RRLink} exact path="/servises" component={Servises} />
-          <Route tag={RRLink} exact path="/bussines" component={Bussines} />
-          <Route tag={RRLink} exact path="/contact" component={Contact} />
+          <Route path="/"  exact component={Main} />
+          <Route path="/servises"  component={Servises} />
+          <Route path="/bussines"  component={Bussines} />
+          <Route path="/contact"  component={Contact} />
           <Route component={NoMath}/>
         </Switch>
       </div>

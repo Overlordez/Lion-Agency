@@ -14,7 +14,7 @@ export class Nav extends React.Component {
             <div className="head">
                 <header>
                     <div className="logo">
-                        <Link to="/main"> <img className="logotype" src="./logo1.png" alt="logo" height="100" /> <h2> LION AGENCY </h2> </Link>
+                        <Link to="/"> <img className="logotype" src="./logo1.png" alt="logo" height="100" /> <h2> LION AGENCY </h2> </Link>
                     </div>
 
                     <nav className="navig">
